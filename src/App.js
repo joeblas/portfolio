@@ -15,7 +15,7 @@ class App extends Component {
           </a>.
         </h1>
         <p>I build software.</p>
-        <p>I spend a lot of my time using React, Redux, and .NET Core. </p>
+        <p>I spend a lot of my time using React and Redux for building robust UIs and ASP.NET Core for RESTful APIs.</p>
         <p>Send me an email: joebgallegos@gmail.com.</p>
       </div>
     );
