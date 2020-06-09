@@ -1,25 +1,24 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <h1>
-          Hello, I'm{' '}
-          <a
-            href='https://www.linkedin.com/in/joebgallegos/'
-            target='_blank' rel="noopener noreferrer"
-            style={{ textDecoration: 'none' }}>
-             Joe
-          </a>.
-        </h1>
+function App() {
+  return (
+    <div className="App">
+      <h1>
+        Hello, I'm{' '}
+        <a
+          href='https://www.linkedin.com/in/joebgallegos/'
+          style={{ textDecoration: 'none' }}>
+          Joe
+          </a>
+      </h1>
+      <div style={{ textAlign: 'left', display: 'flex', flexDirection: 'column', alignItems: 'flex-end' }}>
         <p>I build software.</p>
-        <p>I spend a lot of my time using React and Redux for building robust UIs and ASP.NET Core for RESTful APIs.</p>
-        <p>Send me an email: joebgallegos@gmail.com.</p>
+        <p>I like dogs.</p>
+        <p>I live in Texas.</p>
       </div>
-    );
-  }
+    </div>
+  );
 }
 
 export default App;
